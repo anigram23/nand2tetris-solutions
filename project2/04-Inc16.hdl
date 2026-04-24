@@ -27,6 +27,6 @@ CHIP Inc16 {
     /**
     Better solution: 
     Add16(a=in, b[1..15]=false, b[0]=true, out=out);
-    Same thing essentially, just adding 1 literally. But uses the newer chip instead
+    More compact but effectively just literally adds 1 to the input. Uses the Add16 chip - better abstraction
     */
 }
